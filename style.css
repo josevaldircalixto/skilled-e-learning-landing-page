@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box
+}
+
+#top-info header {
+  height: 837px;
+}
+
+#hero {
+
+  width: 991.63px;
+  height: 936.92px;
+  margin-right: -335.63px;
+  margin-top: -146.13px;
+
+}
+
+#top-left-info {
+
+  width: 457px;
+  height: 359px;
+}
+
+#top-left-info h1 {
+  height: 143px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+  color: #13183F;
+}
+
+#top-left-info p {
+  height: 84px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869A;
+}
+
+#logo-dark {
+  height: 27.68px;
+  width: 111.17px;
+}
+
+#button-superior-right {
+  height: 56px;
+  width: 167px;
+  background-color: #13183F;
+  color: #FFFFFF;
+  border-radius: 28px;
+}
+
+#button-middle-left {
+  height: 56px;
+  width: 167px;
+  background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  color: #FFFFFF;
+  border-radius: 28px;
+}
+
+#button-bottom-right {
+  height: 56px;
+  width: 167px;
+  background-image: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+  color: #FFFFFF;
+  border-radius: 28px;
+}
+
+#orange-box {
+  position: relative;
+  height: 322px;
+  width: 350px;
+  background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  border-radius: 15px;
+}
+
+#grid {
+  position: relative;
+  width: 1440px;
+  height: 888px;
+}
+
+
+#orange-box h2 {
+  position: absolute;
+  margin-top: 64px;
+  margin-left: 32px;
+  height: 120px;
+  width: 286px;
+  color: #FFFFFF;
+  height: 120px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+
+}
+
+.information-box {
+  height: 346px;
+  width: 350px;
+  position: relative;
+}
+
+.information-box img {
+  width: 56px;
+  height: 56px;
+}
+
+.information-box h2 {
+  height: 30px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #13183F;
+
+}
+
+.information-box p {
+  height: 112px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.information-box button {
+  height: 28px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F74780;
+  background-color: white;
+}
