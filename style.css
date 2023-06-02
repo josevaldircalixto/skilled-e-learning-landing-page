@@ -8,7 +8,7 @@
 #top-info header {
   height: 837px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-content: flex-start;
 }
@@ -24,7 +24,7 @@
 
 #top-left-info {
 
-  width: 457px;
+  width: 50%;
   height: 359px;
 }
 
