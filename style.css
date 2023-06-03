@@ -6,11 +6,14 @@
 }
 
 #top-info header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 837px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: flex-start;
+  background: #7c1515;
 }
 
 #hero {
@@ -19,11 +22,11 @@
   height: 936.92px;
   margin-right: -335.63px;
   margin-top: -146.13px;
-
+  background: #7c1515;
 }
 
 #top-left-info {
-
+  background: #7c1515;
   width: 50%;
   height: 359px;
 }
