@@ -6,33 +6,30 @@
 
 }
 
-body {
-  position: relative;
-
-}
+body {}
 
 #top-info header {
   height: 837px;
-
+  max-width: 100vh;
 
 }
 
 .parte-superior {
   display: grid;
+  overflow: hidden;
   grid-template-columns: 1fr 1fr;
-  max-width: 100vh;
-  overflow: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
+
 
 }
 
 
 #hero {
-
   width: 991.63px;
   height: 936.92px;
+
   margin-top: -146.13px;
+  margin-right: -300px;
 
 }
 
@@ -80,14 +77,14 @@ body {
 
 #logo-dark {
   margin-top: 38.75px;
-  margin-left: 165.79px;
+  margin-left: 100px;
   height: 27.68px;
   width: 111.17px;
 }
 
 #button-superior-right {
   margin-top: 24px;
-  margin-right: 165px;
+  margin-right: 80px;
   height: 56px;
   width: 167px;
   background-color: #13183F;
