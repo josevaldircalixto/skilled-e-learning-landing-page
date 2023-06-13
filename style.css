@@ -35,6 +35,8 @@ body {
 }
 
 #top-left-info {
+  display: grid;
+  grid-template-rows: 3;
   /* display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0; */
@@ -46,10 +48,7 @@ body {
 }
 
 #top-left-info h1 {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-
-  height: 143px;
+  display: block;
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   font-weight: 800;
@@ -58,7 +57,7 @@ body {
   color: #13183F;
 }
 
-#parte-duperior-direita {
+#parte-superior-direita {
   display: grid;
 
   justify-items: end;
