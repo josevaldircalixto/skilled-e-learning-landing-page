@@ -18,7 +18,10 @@ body {
 }
 
 .parte-superior {
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100vh;
+  overflow: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
@@ -29,7 +32,6 @@ body {
 
   width: 991.63px;
   height: 936.92px;
-  margin-right: -335.63px;
   margin-top: -146.13px;
 
 }
@@ -140,8 +142,8 @@ body {
 #grid {
   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
   display: grid;
-  justify-content: center;
-  width: 1440px;
+  max-width: 100vp;
+  /* justify-content: center; */
   height: 888px;
 }
 
